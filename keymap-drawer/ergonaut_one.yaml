@@ -40,7 +40,7 @@ layers:
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: SYM}
-  - {t: Esc, h: prog}
+  - {t: Esc, h: PROG}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: NUM}
   SYM:
@@ -166,13 +166,13 @@ layers:
   - ''
   - ''
   - Reset
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
-  - {type: held}
+  - {t: ▽, type: trans}
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  prog:
+  PROG:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'

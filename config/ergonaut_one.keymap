@@ -60,6 +60,11 @@
             if-layers = <LWR RSE>;
             then-layer = <ADJ>;
         };
+
+        tri-layer2 {
+            if-layers = <4 2>;
+            then-layer = <3>;
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -127,6 +132,8 @@
 &trans  &trans                   &kp AMPS                 &kp RIGHT_BRACKET                  &kp LEFT_BRACKET                &kp GRAVE  &kp GRAVE  &kp LEFT_BRACKET            &kp RIGHT_BRACKET             &kp AMPS             &trans                   &trans
                                                           &trans                             &trans                          &trans     &trans     &trans                      &trans
             >;
+
+            label = "PROG";
         };
     };
 };
