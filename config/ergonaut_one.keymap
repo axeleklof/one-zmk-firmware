@@ -62,14 +62,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        lbrace {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <20 21>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         lock_screen: lock_screen {

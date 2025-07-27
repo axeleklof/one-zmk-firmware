@@ -328,10 +328,6 @@ path.combo { stroke: #7f7f7f; }
 <a href="#NUM">
 <text x="0" y="24" class="key hold layer-activator">NUM</text>
 </a></g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="658" y="74" width="28" height="26" class="combo"/>
-<text x="672" y="88" class="combo tap">{</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 331)" class="layer-SYM">
@@ -507,10 +503,6 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="658" y="74" width="28" height="26" class="combo"/>
-<text x="672" y="88" class="combo tap">{</text>
 </g>
 </g>
 </g>
@@ -734,10 +726,6 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="658" y="74" width="28" height="26" class="combo"/>
-<text x="672" y="88" class="combo tap">{</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 992)" class="layer-ADJ">
@@ -918,10 +906,6 @@ path.combo { stroke: #7f7f7f; }
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="658" y="74" width="28" height="26" class="combo"/>
-<text x="672" y="88" class="combo tap">{</text>
-</g>
 </g>
 </g>
 <g transform="translate(30, 1323)" class="layer-prog">
@@ -1101,10 +1085,6 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(616, 205)" class="key trans keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
-</g>
-<g class="combo combopos-0">
-<rect rx="6" ry="6" x="658" y="74" width="28" height="26" class="combo"/>
-<text x="672" y="88" class="combo tap">{</text>
 </g>
 </g>
 </g>
