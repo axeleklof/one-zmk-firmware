@@ -127,10 +127,10 @@
 
         prog_layer {
             bindings = <
-&trans  &trans                   &kp MINUS                &kp RIGHT_BRACE                    &kp LEFT_BRACE                  &kp EXCL   &kp EXCL   &kp LEFT_BRACE              &kp RIGHT_BRACE               &kp MINUS            &trans                   &trans
-&trans  &hml LCTRL GREATER_THAN  &hml LEFT_ALT LESS_THAN  &hml LEFT_SHIFT RIGHT_PARENTHESIS  &hml LEFT_GUI LEFT_PARENTHESIS  &kp EQUAL  &kp EQUAL  &hmr RGUI LEFT_PARENTHESIS  &hmr RSHFT RIGHT_PARENTHESIS  &hmr RALT LESS_THAN  &hmr RCTRL GREATER_THAN  &trans
-&trans  &trans                   &kp AMPS                 &kp RIGHT_BRACKET                  &kp LEFT_BRACKET                &kp GRAVE  &kp GRAVE  &kp LEFT_BRACKET            &kp RIGHT_BRACKET             &kp AMPS             &trans                   &trans
-                                                          &trans                             &trans                          &trans     &trans     &trans                      &trans
+&none  &none                    &kp MINUS                &kp RIGHT_BRACE                    &kp LEFT_BRACE                  &kp EXCL   &kp EXCL   &kp LEFT_BRACE              &kp RIGHT_BRACE               &kp MINUS            &none                    &none
+&none  &hml LCTRL GREATER_THAN  &hml LEFT_ALT LESS_THAN  &hml LEFT_SHIFT RIGHT_PARENTHESIS  &hml LEFT_GUI LEFT_PARENTHESIS  &kp EQUAL  &kp EQUAL  &hmr RGUI LEFT_PARENTHESIS  &hmr RSHFT RIGHT_PARENTHESIS  &hmr RALT LESS_THAN  &hmr RCTRL GREATER_THAN  &none
+&none  &none                    &kp AMPS                 &kp RIGHT_BRACKET                  &kp LEFT_BRACKET                &kp GRAVE  &kp GRAVE  &kp LEFT_BRACKET            &kp RIGHT_BRACKET             &kp AMPS             &none                    &none
+                                                         &none                              &trans                          &none      &none      &trans                      &none
             >;
 
             label = "PROG";

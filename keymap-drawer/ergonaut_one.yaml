@@ -173,8 +173,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   PROG:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '-'
   - '}'
   - '{'
@@ -183,9 +183,9 @@ layers:
   - '{'
   - '}'
   - '-'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - {t: '>', h: Ctrl}
   - {t: <, h: LEFT ALT}
   - {t: ), h: LEFT SHIFT}
@@ -196,9 +196,9 @@ layers:
   - {t: ), h: Shift}
   - {t: <, h: Alt}
   - {t: '>', h: Ctrl}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - '&'
   - ']'
   - '['
@@ -207,11 +207,11 @@ layers:
   - '['
   - ']'
   - '&'
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
