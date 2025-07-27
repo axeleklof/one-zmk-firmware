@@ -11,6 +11,8 @@ on:
 
 jobs:
   draw:
+    permissions:
+      contents: write
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
       keymap_patterns: 'config/*.keymap'
@@ -20,3 +22,4 @@ jobs:
       amend_commit: true
       draw_args: "ergonaut_one:'-k corne_rotated -l LAYOUT_split_3x6_3'"
       json_path: keymap-drawer/layouts
+    
