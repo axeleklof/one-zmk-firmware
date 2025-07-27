@@ -14,17 +14,17 @@ layers:
   - P
   - '['
   - {t: '`', h: Ctrl}
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: Ctrl}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LSHIFT}
+  - {t: F, h: LEFT GUI}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
-  - {t: '''', h: Ctrl}
+  - {t: J, h: Gui}
+  - {t: K, h: RSHIFT}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: Ctrl}
+  - ''''
   - {t: '-', h: Alt}
   - Z
   - X
@@ -40,7 +40,7 @@ layers:
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: SYM}
-  - {t: Esc, h: SYM}
+  - {t: Esc, h: prog}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: NUM}
   SYM:
@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
-  - {t: KP NUM, h: Gui}
+  - Caps Word
   - KP SLASH
   - KP 7
   - KP 8
@@ -100,10 +100,10 @@ layers:
   - SLCK
   - CLCK
   - {t: '=', h: Ctrl}
-  - KP MULTIPLY
-  - KP 4
-  - KP 5
-  - KP 6
+  - {t: KP MULTIPLY, h: Ctrl}
+  - {t: KP 4, h: Alt}
+  - {t: KP 5, h: LSHIFT}
+  - {t: KP 6, h: Gui}
   - KP PLUS
   - MUTE
   - ←
@@ -136,8 +136,8 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
+  - '&bl BL_DEC'
+  - '&bl BL_INC'
   - ''
   - ''
   - '&studio_unlock'
@@ -148,9 +148,9 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - BT 5
-  - BT 4
-  - BT 3
+  - MUTE
+  - VOLUME DOWN
+  - VOLUME UP
   - BT 2
   - BT 1
   - BT CLR
@@ -159,7 +159,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&lock_screen'
   - ''
   - ''
   - ''
@@ -172,3 +172,49 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  prog:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '-'
+  - '}'
+  - '{'
+  - '!'
+  - '!'
+  - '{'
+  - '}'
+  - '-'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '>', h: Ctrl}
+  - {t: <, h: LEFT ALT}
+  - {t: ), h: LEFT SHIFT}
+  - {t: (, h: LEFT GUI}
+  - '='
+  - '='
+  - {t: (, h: Gui}
+  - {t: ), h: Shift}
+  - {t: <, h: Alt}
+  - {t: '>', h: Ctrl}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&'
+  - ']'
+  - '['
+  - '`'
+  - '`'
+  - '['
+  - ']'
+  - '&'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [20, 21]
+  k: '{'
