@@ -40,7 +40,7 @@ layers:
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: SYM}
-  - {t: Esc, h: PROG}
+  - {t: Esc, h: sym}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: NUM}
   SYM:
@@ -136,8 +136,8 @@ layers:
   - ''
   - ''
   - ''
-  - '&bl BL_DEC'
-  - '&bl BL_INC'
+  - ''
+  - ''
   - ''
   - ''
   - '&studio_unlock'
@@ -148,9 +148,9 @@ layers:
   - BT 3
   - BT 4
   - BT 5
-  - MUTE
-  - VOLUME DOWN
-  - VOLUME UP
+  - ''
+  - ''
+  - ''
   - BT 2
   - BT 1
   - BT CLR
@@ -159,7 +159,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&lock_screen'
+  - ''
   - ''
   - ''
   - ''
@@ -172,7 +172,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  PROG:
+  sym:
   - ''
   - ''
   - '-'
@@ -214,4 +214,4 @@ layers:
   - ''
   - {type: held}
   - {t: ▽, type: trans}
-  - ''
+  - {t: ▽, type: trans}
