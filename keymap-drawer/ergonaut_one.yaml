@@ -40,7 +40,7 @@ layers:
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
   - {t: ⏎, h: SYM}
-  - {t: Esc, h: sym}
+  - {t: Esc, h: sym2}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: NUM}
   SYM:
@@ -172,7 +172,7 @@ layers:
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  sym:
+  sym2:
   - ''
   - ''
   - '-'
@@ -180,9 +180,9 @@ layers:
   - '{'
   - '!'
   - '!'
+  - $
   - '{'
   - '}'
-  - '-'
   - ''
   - ''
   - ''
@@ -191,10 +191,10 @@ layers:
   - {t: ), h: LEFT SHIFT}
   - {t: (, h: LEFT GUI}
   - '='
-  - '='
+  - <
   - {t: (, h: Gui}
   - {t: ), h: Shift}
-  - {t: <, h: Alt}
+  - {t: '>', h: Alt}
   - {t: '>', h: Ctrl}
   - ''
   - ''
@@ -203,10 +203,10 @@ layers:
   - ']'
   - '['
   - '`'
-  - '`'
+  - '='
   - '['
   - ']'
-  - '&'
+  - .
   - ''
   - ''
   - ''
