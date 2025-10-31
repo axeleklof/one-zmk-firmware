@@ -39,8 +39,8 @@ layers:
   - {t: \, h: Alt}
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
-  - {t: ⏎, h: SYM}
-  - {t: Esc, h: sym2}
+  - {t: Esc, h: SYM}
+  - {t: ENTER, h: sym2}
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: NUM}
   SYM:
