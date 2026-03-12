@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: ergonaut_one}
 layers:
   MAIN:
-  - {t: ']', h: Gui}
+  - ']'
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - '['
-  - {t: '`', h: Ctrl}
+  - {t: '`', h: CAPSLOCK}
   - {t: A, h: Ctrl}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LSHIFT}
@@ -25,7 +25,7 @@ layers:
   - {t: L, h: RIGHT ALT}
   - {t: ;, h: Ctrl}
   - ''''
-  - {t: '-', h: Alt}
+  - <
   - Z
   - X
   - C
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - {t: \, h: Alt}
+  - \
   - {t: ↹, h: NUM}
   - {t: ␣, h: Shift}
   - {t: Esc, h: SYM}
@@ -44,7 +44,7 @@ layers:
   - {t: ⌫, h: Shift}
   - {t: ⌦, h: NUM}
   SYM:
-  - {t: F1, h: Gui}
+  - F1
   - F2
   - F3
   - F4
@@ -67,7 +67,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '-', h: Ctrl}
+  - '-'
   - {t: '=', h: Alt}
   - '1'
   - '2'
@@ -79,7 +79,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Alt
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -94,35 +94,35 @@ layers:
   - KP 9
   - KP MINUS
   - Vol Up
-  - Home
-  - Print Scrn
-  - Page Up
-  - SLCK
-  - CLCK
+  - BRI DN
+  - BRI UP
+  - MUTE
+  - Vol Down
+  - Vol Up
   - {t: '=', h: Ctrl}
   - {t: KP MULTIPLY, h: Ctrl}
   - {t: KP 4, h: Alt}
   - {t: KP 5, h: LSHIFT}
   - {t: KP 6, h: Gui}
   - KP PLUS
-  - MUTE
   - ←
+  - ↓
   - ↑
   - →
   - Insert
-  - {t: APP, h: Ctrl}
-  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - KP 0
   - KP 1
   - KP 2
   - KP 3
   - KP DOT
-  - Vol Down
+  - Home
   - End
-  - ↓
-  - Page Down
-  - Pause Break
-  - Alt
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -191,10 +191,10 @@ layers:
   - {t: ), h: LEFT SHIFT}
   - {t: (, h: LEFT GUI}
   - '='
-  - <
+  - '%'
   - {t: (, h: Gui}
   - {t: ), h: Shift}
-  - {t: '>', h: Alt}
+  - {t: <, h: Alt}
   - {t: '>', h: Ctrl}
   - ''
   - ''
